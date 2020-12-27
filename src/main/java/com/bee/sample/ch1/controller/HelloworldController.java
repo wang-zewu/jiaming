@@ -48,6 +48,7 @@ public class HelloworldController {
         registry.addMapping("/api/**")
                 .allowedOrigins("http://domain2.com")
                 .allowedMethods("POST", "GET");
+        System.out.println(667);
     }
 
     @RequestMapping("/setget.html")
